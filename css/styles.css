@@ -1,0 +1,133 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.paisaje{
+    width: 100%;
+    height: 100vh;
+    padding: 30px;
+    background-image: linear-gradient(to right, #f0f0f0, #f4f4f4, #f7f7f7, #fbfbfb, #ffffff);
+}
+
+.paisaje_sky{
+    width: 450px;
+    height: 550px;
+    margin: 0 auto;
+    position: relative;
+    top: 20px;
+    background-image: linear-gradient(to bottom, #8b118b, #9f5eb1, #b795d1, #d6cbeb, #ffffff);
+    border-radius: 50px 0px 50px 0px;
+    box-shadow: 0px 0px 20px -5px black;
+}
+
+.paisaje_sun{
+    width: 300px;
+    height: 300px;
+    background-image: linear-gradient(to left top, #e7e74b, #eadf45, #ecd840, #eed03c, #f0c839);
+    border-radius: 50%;
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+    box-shadow: 0px 0px 15px yellow;
+    transition: 1s transform;
+}
+
+.paisaje_sun:hover{
+    transform: translate(0px,-100px);
+}
+
+
+.paisaje_moon{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    left: 10%;
+    top: 30px;
+    background-image: linear-gradient(to right top, #ffffff, #f9f9f9, #f3f2f3, #eeebec, #e9e5e5);
+    box-shadow: 0px 0px 50px white;
+    transition: 1s transform;
+}
+
+.paisaje_moon:hover{
+    transform: scale(1.4);
+}
+
+
+.paisaje_grass{
+    width: 0;
+    height: 0;
+    position: absolute;
+    bottom: 0;
+    border-top: 100px solid rgb(8, 82, 14);
+    border-bottom: 100px solid rgb(76, 184, 130);
+    border-left: 450px solid rgb(22, 143, 73);
+    border-radius: 0 0 50px 0;
+}
+
+.paisaje_mountain{
+    width: 0;
+    height: 0;
+    border-right: 90px solid transparent;
+    border-left: 90px solid transparent;
+    border-bottom: 150px solid #7e4479;
+    position: absolute;
+    top: 200px;
+}
+
+.paisaje_mountain_two{
+    width: 0;
+    height: 0;
+    border-right: 130px solid transparent;
+    border-left: 130px solid transparent;
+    border-bottom: 170px solid #4b0636;
+    position: absolute;
+    top: 180px;
+    left: 70px;
+}
+
+.paisaje_trees_tree{
+    width: 0;
+    height: 0;
+    border-right: 20px solid transparent;
+    border-left: 20px solid transparent;
+    border-bottom: 90px solid #235157;
+    position: absolute;
+    bottom: 20px;
+    right: 30px;
+}
+
+.two{
+    right: 90px;
+}
+
+.three{
+    right: 150px;
+}
+
+.four{
+    bottom: 140px;
+    border-bottom: 90px solid #366c74;
+}
+
+.five{
+    bottom: 140px;
+    border-bottom: 90px solid #366c74;
+}
+
+.six{
+    bottom: 140px;
+    border-bottom: 90px solid #366c74;
+}
+
+.paisaje_lake{
+    width: 220px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    left: 20px;
+    bottom:55px;
+    background-image: linear-gradient(to right top, #47678b, #547aa5, #618ebf, #6fa2da, #7db7f6);
+}
